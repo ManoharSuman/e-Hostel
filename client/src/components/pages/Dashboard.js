@@ -5,7 +5,7 @@ import { getCurrentUser } from "../../actions/authActions";
 
 
 const clean = require("../../img/cleaning.jpg");
-const student = require("client/src/img/student.jpg");
+const student = require("../../img/student.jpg");
 const staff = require("../../img/staff.jpeg");
 const bedRoom = require("../../img/bedroom.jpeg");
 class Dashboard extends Component {
