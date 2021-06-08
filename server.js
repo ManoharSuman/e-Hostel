@@ -31,7 +31,7 @@ require("./config/passport")(passport);
 
 // Use Routes
 app.use("/api/users", users);
-app.use("/api/student", students);
+app.use("/api/student", student);
 app.use("/api/room", room);
 app.use("/api/staff", staff);
 
